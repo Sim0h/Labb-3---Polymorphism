@@ -4,14 +4,14 @@
     {
         static void Main(string[] args)
         {
-            Cirkel cirkel = new Cirkel();
-            cirkel.Area();
+            Geometri geometri = new Cirkel();
+            geometri.Area();
 
-            Rektangel rektangel = new Rektangel();
-            rektangel.Area();
+            Geometri geometri2 = new Rektangel();
+            geometri2.Area();
 
-            Fyrkant fyrkant = new Fyrkant();
-            fyrkant.Area();
+            Geometri geometri3 = new Fyrkant();
+            geometri3.Area();
         }
     }
 }
